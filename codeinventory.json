@@ -1,0 +1,26 @@
+{
+
+"version": "1.1",
+"agency": “USAID”,
+"projects": [
+        {
+	"name": "Save Gmail",
+	“repository”:””,
+	"manifest_version": 2,
+	"description": "USAID Gmail extension to save messages to local disk",
+	“license”:”null”,
+	“openSourceProject”: 0,
+	“governmentWideReuseProject”: 0,
+
+"tags": [
+              “SAVE”,
+              “GMAIL”
+            ],
+	"contact": {
+              "email": “mdicko@usaid.gov”,
+              "name": “Malcolm Dicko“,
+              "phone": “703-666-1215”
+            },
+	
+]
+}

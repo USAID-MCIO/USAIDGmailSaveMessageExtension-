@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+.message {
+	font-family: arial,sans-serif; 
+	font-weight: bold; 
+	position:relative;
+	float:left;
+	width: 300px; 
+	height: 75px; 
+	padding:1em;
+	margin:1em 10px 2em;
+	background:#eee;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+			box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.message:before,
+.message:after {
+	content:"";
+	position:absolute;
+	z-index:-2;
+}
+.message p {
+	font-size:16px;
+	font-weight:bold;
+}
+</style>
+<script src="index.js"></script>
+</head>
+<body>
+<div class="message" id="statdiv">Please wait ...</div>
+</body>
+</html>
